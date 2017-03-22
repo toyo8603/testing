@@ -5,7 +5,3 @@ total 40
 -rw-r--r--  1 honda  staff  144  3 22 07:27 A
 -rwxr-xr-x  1 honda  staff   33  3 22 02:30 b*
 -rw-r--r--  1 honda  staff    0  3 21 23:19 c
--rw-r--r--  1 honda  staff  358  3 22 02:30 dir.txt
--rwxr-xr-x  1 honda  staff   98  3 22 02:30 kickoff.py*
-drwxr-xr-x  2 honda  staff   68  3 21 12:55 qa_clone/
--rw-r--r--  1 honda  staff  108  3 22 02:30 yyy
