@@ -1,2 +1,38 @@
 SourceTree can't login.
 [NEXT] button doesn't use. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2017年 3月22日 水曜日 09時42分11秒 JS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gitについて
+Remove files from Git commit
+http://stackoverflow.com/questions/12481639/remove-files-from-git-commit#comment16792160_12481639
+How to list all the files in a commit?
+http://stackoverflow.com/questions/424071/how-to-list-all-the-files-in-a-commit
+7.6 Git Tools - Rewriting History
+https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History#Changing-Multiple-Commit-Message
+example:
+ $ git rebase -i HEAD~2
+in $EDITOR: (must be terminal base editor!)
+from:
+pick ......
+pick .....
+to :
+pick ...
+edit ...
+(change pick to edit to your modified commit)
+$ git commit --amend
+$ git rebase --continue
+$ git log
+
+$ git show --name-only HEAD~2..HEAD
+$ git show --name-only HEAD~2
+
+excluding .gitignore
+as Stack Overflow says
+this file should not be excluded for git
+
+.git/objectsフォルダの中
+http://qiita.com/nkshigeru/items/eb2b6f758c2707757738
+
+これは一読するべき
+http://www.backlog.jp/git-guide/reference/trouble-shooting.htmlT
