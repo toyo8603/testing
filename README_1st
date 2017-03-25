@@ -2,6 +2,9 @@
 README Fisrt
 ----
 以下にあるサイトに説明があります。
+ただし、Next, login to your second GitHub account, browse to "Account Overview,..
+とある部分は変更になっています。画面右上のドロップダウンメニュー(View profile and more)の中から
+settingsを選び、次に右側のペインから SSH and GPG keysを選択します。	
 gitのMultiple Accountについては、
 Quick Tip: How to Work with GitHub and Multiple Accounts
 https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574
